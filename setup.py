@@ -18,7 +18,8 @@ packages.extend(["upgenius"])
 
 requires = [
     "playwright>=1.33.0",
-    "better-exceptions>=0.2.2" "parsel>=1.5.2",
+    "better-exceptions>=0.2.2",
+    "parsel>=1.5.2",
     "requests>=2.22.0",
     "selenium>=3.141.0",
     "bs4>=0.0.1",
