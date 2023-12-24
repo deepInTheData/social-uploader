@@ -17,16 +17,23 @@ packages.extend(["upgenius"])
 
 
 requires = [
-    "better-exceptions>=0.2.2",
-    "parsel>=1.5.2",
+    "playwright>=1.33.0",
+    "better-exceptions>=0.2.2" "parsel>=1.5.2",
     "requests>=2.22.0",
-    "bs4>=0.0.1",
     "selenium>=3.141.0",
+    "bs4>=0.0.1",
+    "bitarray>=1.5.3",
     "urllib3>=1.25.8",
     "loguru>=0.5.3",
     "webdriver-manager>=3.5.3",
     "terminal-layout>=2.1.3",
-    "playwright",
+    "playwright_stealth #==1.0.5",
+    "async_class #==0.5.0",
+    "httpx",
+    "numpy",
+    "colorama==0.4.6",
+    "undetected-playwright",
+    "openpyxl",
 ]
 setuptools.setup(
     name="upgenius",
